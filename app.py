@@ -13,6 +13,7 @@ df_therapy = pd.read_csv("therapy.csv", engine='python')
 
 # Initialize Dash app
 app = dash.Dash(__name__)
+server = app.server
 app.title = "Insurance Claims Dashboard"
 
 # App layout
